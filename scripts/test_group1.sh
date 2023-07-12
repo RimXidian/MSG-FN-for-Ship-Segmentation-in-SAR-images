@@ -7,7 +7,7 @@ GROUP_ID=1
 
 # train_class='Visakhapatnam HK Barcelone Chittaagong PanamaCanal BayPlenty-Sulphur IS SaoPauloHH AswanDam StraitGibraltar QD Houston'
 test_class='ShangHai-HH Singapore SH SaoPauloHV'
-batch_size=3
+batch_size=1
 k_shot=5
 restore_step=300000
 
