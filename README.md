@@ -8,7 +8,7 @@ Multi-Scale Similarity Guidance Few-Shot Network for Ship Segmentation in SAR Im
 
 # Usage
 ## 1. Dependencies
-This code is tested on [Ubuntu18.04 LTS，python 3.7，pytorch 1.5，CUDA 10.1]. 
+This code is tested on [Ubuntu18.04 LTS，python 3.7，pytorch 1.6，CUDA 10.1]. 
  
  ```
 1. conda activate [your_enviroment]
@@ -28,7 +28,7 @@ Train the dataset using following commands:
 cd scripts
 sh train_group0.sh
 ```
-You can download the trained model [here](), (extract code: ``) for direct testing on the dataset. 
+You can download the trained model [here](https://drive.google.com/file/d/1K9fN-wRwjE6So1JV9q3khHaehfJKV8rK/view?usp=sharing). 
 ## 4. Test
 Test the dataset using following commands:
 ```
