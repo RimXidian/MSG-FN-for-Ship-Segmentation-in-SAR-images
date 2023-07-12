@@ -5,8 +5,8 @@ cd ..
 GPU_ID=0
 GROUP_ID=2
 
-# train_class='ShangHai-HH Singapore SH SaoPauloHV PanamaCanal BayPlenty-Sulphur IS SaoPauloHH AswanDam StraitGibraltar QD Houston'
-test_class='Visakhapatnam HK Barcelone Chittaagong'
+# train_class='Visakhapatnam HK Barcelone Chittaagong ShangHai-HH Singapore SH SaoPauloHV AswanDam StraitGibraltar QD Houston'
+test_class='PanamaCanal BayPlenty-Sulphur IS SaoPauloHH'
 batch_size=1
 restore_step=300000
 k_shot=5
