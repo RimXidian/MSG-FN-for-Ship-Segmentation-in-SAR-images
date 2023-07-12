@@ -16,7 +16,7 @@ This code is tested on [Ubuntu18.04 LTS，python 3.7，pytorch 1.5，CUDA 10.1].
 ```
 
 ## 2. Prerequisites
-
+Download the dataset from [here](https://drive.google.com/file/d/15Q-5A_GQBAQTOp9rHXedbU7S1Dti-tR9/view?usp=share_link) and unzip it to the root directory of this project.
 
 ## 3. Train
 Install all the python dependencies using pip:
@@ -25,13 +25,15 @@ pip install -r requirements.txt
 ```
 Train the dataset using following commands:
 ```
-
+cd scripts
+sh train_group0.sh
 ```
-You can download the trained model parameters [here](), (extract code: ``) for direct testing on the  dataset. 
+You can download the trained model [here](), (extract code: ``) for direct testing on the dataset. 
 ## 4. Test
 Test the dataset using following commands:
 ```
-
+cd scripts
+sh test_group0.sh
 ```
 
 # Citation
